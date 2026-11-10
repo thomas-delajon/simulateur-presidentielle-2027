@@ -1,0 +1,26 @@
+name: Déploiement Netlify
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python scripts/validate_data.py
+      - uses: nwtgck/actions-netlify@v3.0
+        with:
+          publish-dir: .
+          production-branch: main
+          production-deploy: true
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          deploy-message: "Déploiement depuis GitHub Actions"
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}

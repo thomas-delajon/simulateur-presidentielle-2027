@@ -1,0 +1,10 @@
+{
+  "source": "https://github.com/MieuxVoter/presidentielle2027",
+  "license": "MIT",
+  "updatedAt": "2026-10-23",
+  "method": "Moyenne conditionnelle calculée uniquement sur les enquêtes de même configuration de candidatures.",
+  "defaultConfiguration": "legacy-v3-philippe-no-attal",
+  "configurations": [
+    {"id":"legacy-v3-philippe-no-attal","label":"Philippe sans Attal · Le Pen · Glucksmann","candidateIds":["c0","c1","c2","c3","c4","c5","c6","c7","c8","c9"],"values":{"c0":35,"c1":16.9,"c2":16.5,"c3":11.8,"c4":7.3,"c5":3.8,"c6":3.3,"c7":2.4,"c8":2.2,"c9":0.6},"pollCount":18,"pollingInstitutes":7,"fieldEnd":"2026-10-15","sourceDate":"2026-10-23","sourceLabel":"Présage 27 — moyenne pondérée","sourceUrl":"https://presage27.fr/"}
+  ]
+}

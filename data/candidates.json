@@ -1,0 +1,29 @@
+{
+  "updatedAt": "2026-10-23",
+  "candidates": [
+    {"id":"c0","name":"Marine Le Pen","status":"declared","party":"Rassemblement national"},
+    {"id":"c1","name":"Édouard Philippe","status":"declared","party":"Horizons"},
+    {"id":"c2","name":"Jean-Luc Mélenchon","status":"envisaged","party":"La France insoumise"},
+    {"id":"c3","name":"Raphaël Glucksmann","status":"envisaged","party":"Place publique"},
+    {"id":"c4","name":"Bruno Retailleau","status":"envisaged","party":"Les Républicains"},
+    {"id":"c5","name":"Éric Zemmour","status":"envisaged","party":"Reconquête"},
+    {"id":"c6","name":"Marine Tondelier","status":"envisaged","party":"Les Écologistes"},
+    {"id":"c7","name":"Fabien Roussel","status":"envisaged","party":"Parti communiste français"},
+    {"id":"c8","name":"Nicolas Dupont-Aignan","status":"envisaged","party":"Debout la France"},
+    {"id":"c9","name":"Nathalie Arthaud","status":"envisaged","party":"Lutte ouvrière"},
+    {"id":"x10","name":"Jordan Bardella","status":"envisaged"},
+    {"id":"x11","name":"Gabriel Attal","status":"envisaged"},
+    {"id":"x12","name":"David Lisnard","status":"envisaged"},
+    {"id":"x13","name":"François Ruffin","status":"envisaged"},
+    {"id":"x14","name":"François Hollande","status":"envisaged"},
+    {"id":"x15","name":"Olivier Faure","status":"envisaged"},
+    {"id":"x16","name":"Dominique de Villepin","status":"envisaged"},
+    {"id":"x17","name":"Juan Branco","status":"envisaged"},
+    {"id":"x18","name":"Ségolène Royal","status":"envisaged"},
+    {"id":"x19","name":"Natacha Polony","status":"envisaged"},
+    {"id":"x20","name":"Karim Bouamrane","status":"envisaged"},
+    {"id":"x21","name":"Xavier Bertrand","status":"envisaged"},
+    {"id":"x22","name":"Bruno Le Maire","status":"envisaged"},
+    {"id":"x23","name":"Jean Lassalle","status":"envisaged"}
+  ]
+}
