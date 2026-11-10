@@ -1,0 +1,12 @@
+{
+  "name": "simulateur-presidentielle-2027",
+  "version": "4.0.0",
+  "private": true,
+  "description": "Simulateur citoyen de scenarios pour l'election presidentielle de 2027.",
+  "scripts": {
+    "dev": "node scripts/serve.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

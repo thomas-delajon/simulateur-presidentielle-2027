@@ -7,10 +7,10 @@ Simulateur statique. L’interface et le calcul sont dans `index.html` et `app.j
 Le navigateur doit pouvoir charger les fichiers JSON par HTTP. Depuis la racine du projet :
 
 ```sh
-ruby --disable-gems -run -e httpd . -p 8000 -b 127.0.0.1
+npm run dev
 ```
 
-Ouvrir ensuite <http://127.0.0.1:8000>. Le déploiement Netlify sert ces mêmes fichiers statiques.
+Node.js 18 ou une version plus récente est nécessaire. Aucune dépendance n'est à installer. Ouvrir ensuite <http://127.0.0.1:8000>. Le déploiement Netlify sert ces mêmes fichiers statiques.
 
 ## Données et règles
 
