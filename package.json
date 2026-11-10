@@ -4,7 +4,8 @@
   "private": true,
   "description": "Simulateur citoyen de scenarios pour l'election presidentielle de 2027.",
   "scripts": {
-    "dev": "node scripts/serve.mjs"
+    "build": "node scripts/build.mjs",
+    "dev": "npm run build && node scripts/serve.mjs"
   },
   "engines": {
     "node": ">=18"

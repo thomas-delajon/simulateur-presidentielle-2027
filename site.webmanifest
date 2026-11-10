@@ -1,0 +1,18 @@
+{
+  "name": "Scénarios 2027 — Simulateur de présidentielle",
+  "short_name": "Scénarios 2027",
+  "description": "Atelier citoyen de simulation des premier et second tours de l'élection présidentielle de 2027.",
+  "lang": "fr-FR",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#091121",
+  "theme_color": "#0d1526",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

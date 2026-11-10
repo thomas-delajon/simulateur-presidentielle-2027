@@ -4,13 +4,16 @@ import { extname, resolve, sep } from "node:path";
 
 const host = process.env.HOST || "127.0.0.1";
 const port = Number(process.env.PORT || 8000);
-const root = resolve(process.cwd());
+const root = resolve(process.cwd(), "dist");
 
 const contentTypes = {
   ".css": "text/css; charset=utf-8",
   ".html": "text/html; charset=utf-8",
   ".js": "text/javascript; charset=utf-8",
   ".json": "application/json; charset=utf-8",
+  ".txt": "text/plain; charset=utf-8",
+  ".webmanifest": "application/manifest+json; charset=utf-8",
+  ".xml": "application/xml; charset=utf-8",
   ".svg": "image/svg+xml",
 };
 
