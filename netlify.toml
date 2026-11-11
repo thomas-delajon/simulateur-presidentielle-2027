@@ -2,6 +2,12 @@
   publish = "dist"
   command = "python3 scripts/validate_data.py && npm run build"
 
+[[redirects]]
+  from = "https://radiant-sunflower-6e7bd5.netlify.app/*"
+  to = "https://scenarios2027.fr/:splat"
+  status = 301
+  force = true
+
 [[headers]]
   for = "/*"
   [headers.values]
@@ -28,3 +34,9 @@
   for = "/sitemap.xml"
   [headers.values]
     Cache-Control = "public, max-age=3600"
+
+[[headers]]
+  for = "/site.webmanifest"
+  [headers.values]
+    Cache-Control = "public, max-age=3600"
+    Content-Type = "application/manifest+json; charset=utf-8"
